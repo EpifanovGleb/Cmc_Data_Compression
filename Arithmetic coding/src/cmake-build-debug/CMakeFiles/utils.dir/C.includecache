@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gleb/compression/src/ari.c
+stdlib.h
+-
+stdio.h
+-
+limits.h
+-
+memory.h
+-
+sys/types.h
+-
+ari.h
+/home/gleb/compression/src/ari.h
+
+/home/gleb/compression/src/ari.h
+
